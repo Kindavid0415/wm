@@ -1,12 +1,15 @@
 # 万门大学课程视频批量下载
 
+原作者：[@cildhdi](https://github.com/cildhdi)
+此处仅为备份自用
+
 只能批量下载免费的或者已经购买的课程，需要配合本地客户端使用。
 
 ## 使用步骤
 
 ### 下载
 
-[Release](https://github.com/cildhdi/wm/releases) 中提供 Windows 平台可执行文件的下载。
+[Release](https://github.com/HellSakura/wm/releases) 中提供 Windows 平台可执行文件的下载。
 
 > 也可以自行编译，在任意操作系统安装 Go 后执行 ``` go build . ``` 得到可执行文件。
 
@@ -39,7 +42,9 @@ Referer:https://www.wanmen.org/courses/
 点击 Go 开始下载。
 
 ### TIP
-- 反馈请走[这里](https://github.com/cildhdi/wm/issues)提交 issue
+<!--
+- 反馈请走[这里](https://github.com/HellSakura/wm/issues)提交 issue
+-->
 - 有关标签页的数量，一个标签页刷新一次即获取到一个视频链接，理论上打开越多获取越快，但刷新速度受网速以及设备性能的限制，请根据实际情况自行调整打开数量。
 - wm同级目录下的 wm.db 保存了课程任务信息，在退出后再次进入分发任务模式，可以自动开始上次未完成的任务。
 - 课程播放页面的布局可能发生变化，具体表现为模式1下无法添加课程，模式2下页面不会自动刷新，可以直接提交 issue (其他问题也可以)。
